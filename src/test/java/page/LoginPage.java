@@ -8,7 +8,7 @@ public class LoginPage extends LoginConstants {
         super(driver);
 
     }
-    public MainPage searchProduct(){
+    public MainPage SearchProduct(){
         getElementBy(SEARCHINPUT).click();
         getElementBy(SEARCHINPUT).sendKeys("pantolon");
         getElementBy(FIND).click();

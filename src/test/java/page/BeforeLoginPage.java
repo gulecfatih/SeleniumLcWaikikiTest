@@ -9,15 +9,15 @@ public class BeforeLoginPage extends BeforeLoginConstants {
     public BeforeLoginPage(WebDriver driver) {super(driver);
     }
 
-    public BeforeLoginPage clickLogin() {
+    public BeforeLoginPage ClickLogin() {
 
         getElementBy(NAVBARLOGIN).click();
-        getElementBy(By.linkText(LOGIN)).click();
+
 
         return this;
     }
 
-    public LoginPage successLogin(){
+    public LoginPage SuccessLogin(){
 
         getElementBy(EMAIL).sendKeys("gulec8062@gmail.com");
         getElementBy(PASSWORD).sendKeys("fatih.12345");

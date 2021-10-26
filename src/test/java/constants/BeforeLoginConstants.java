@@ -8,7 +8,6 @@ public class BeforeLoginConstants extends BaseMethod {
     public BeforeLoginConstants(WebDriver driver) { super(driver); }
 
     public By NAVBARLOGIN = By.className("dropdown-toggle");
-    public String LOGIN ="Giriş Yap";
 
 
     public By EMAIL = By.id("LoginEmail");

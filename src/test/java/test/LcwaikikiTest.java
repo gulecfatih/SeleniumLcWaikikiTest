@@ -8,14 +8,15 @@ public class LcwaikikiTest extends BaseTest {
     @Test
     public void searchTest(){
         new BeforeLoginPage(driver)
-                .clickLogin()
-                .successLogin()
-                .searchProduct()
+                .ClickLogin()
+                .SuccessLogin()
+                .SearchProduct()
                 .More()
-                .selectRandomProduct();
-
-
-
+                .SelectRandomProduct()
+                .ChoseSize()
+                .AddBasket()
+                .ChooseProduct()
+                .DeleteProduct();
     }
 
 }
