@@ -4,7 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3d1bf17-0727-409e-a4f2-d8c4f9f97b32" name="Default Changelist" comment="" />
+    <list default="true" id="b3d1bf17-0727-409e-a4f2-d8c4f9f97b32" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/constants/BeforeLoginConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/constants/DetailConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/constants/LoginConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/constants/MainConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/constants/MorePageConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/BeforeLoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/DetailPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/MorePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/base/BaseMethod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/constants/BasketConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/constants/BeforeLoginConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/constants/DetailConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/constants/LoginConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/constants/MainConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/constants/MorePageConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/page/BasketPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/page/BeforeLoginPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/page/DetailPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/page/LoginPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/page/MainPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/page/MorePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/test/LcwaikikiTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/LcwaikikiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/LcwaikikiTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,16 +61,56 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SeleniumGittigidiyorTest" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="page" />
       <recent name="constants" />
+      <recent name="page" />
     </key>
+  </component>
+  <component name="RunManager" selected="JUnit.LcwaikikiTest">
+    <configuration name="LcwaikikiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumLcWaikikiTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.LcwaikikiTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LcwaikikiTest.searchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumLcWaikikiTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.LcwaikikiTest" />
+      <option name="METHOD_NAME" value="searchTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LcwaikikiTest" />
+        <item itemvalue="JUnit.LcwaikikiTest.searchTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -52,5 +122,19 @@
       <updated>1635244071205</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/base/BaseTest.java</url>
+          <line>45</line>
+          <properties class="base.BaseTest">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

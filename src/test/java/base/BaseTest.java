@@ -15,7 +15,7 @@ public class BaseTest {
 
     protected WebDriver driver;
 
-    public static String baseUrl = "https://www.lcwaikiki.com/tr-TR/TR/";
+    public static String baseUrl = "https://www.lcwaikiki.com/tr-TR/TR";
     public static String browserName = "chrome";
 
 
@@ -41,10 +41,10 @@ public class BaseTest {
         System.out.println(baseUrl);
         driver.get(baseUrl);
     }
-
+/*
     @After
     public void tearDown(){
         driver.quit();
-    }
+    }*/
 
 }
